@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+
+@layer components {
+  .custom-container {
+    width: 100%;
+    max-width: 1200px; /* Ye aapki design ke hisaab se adjust kar sakte hain */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;  /* 24px space */
+    padding-right: 1.5rem; /* 24px space */
+  }
+}

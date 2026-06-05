@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-[#f7f9f2] py-12 md:py-20">
+    <section className="bg-[#f7f9f2] py-12 md:py-15">
       <div className="custom-container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           

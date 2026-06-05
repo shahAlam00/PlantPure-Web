@@ -4,7 +4,7 @@ const faqData = [
   { q: "Is PlantPure completely natural?", a: "PlantPure uses carefully selected herbal ingredients including Henna Powder, Indigo Powder and Hibiscus Oil." },
   { q: "Does it contain ammonia or peroxide?", a: "No. PlantPure is free from Ammonia, PPD and Peroxide." },
   { q: "Will it help cover grey hair?", a: "Yes. It is designed to provide natural-looking grey coverage." },
-  { q: "Is it suitable for sensitive scalp?", a: "The herbal formulation is gentle and free from many harsh chemical ingredients commonly found in synthetic colors." },
+  { q: "Is it suitable for sensitive scalp?", a: "The herbal formulation is gentle and free from many harsh chemical ingredients commonly found in synthetic colors, Thus it is suitable for people having skin allergies ." },
   { q: "Can I use it regularly?", a: "Yes. Many customers have been using PlantPure products for years as part of their regular hair care routine." },
   { q: "Do you deliver across India?", a: "Yes. PlantPure products are available for delivery across India." }
 ];

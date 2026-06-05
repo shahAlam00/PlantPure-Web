@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Logo from '../assets/Logo.png';
 const Header = () => {
   return (
     <header className="w-full">
@@ -7,7 +7,7 @@ const Header = () => {
       {/* Container is used here to center text, no horizontal padding */}
       <div className="bg-[#1a3c26] text-white text-xs md:text-sm py-2">
         <div className="custom-container mx-auto text-center">
-          🌿 Limited Launch Offer — Free Shipping across India + ₹200 OFF on first order
+          🌿 ₹100 OFF for your First Order and Free Delivery
         </div>
       </div>
 
@@ -17,10 +17,11 @@ const Header = () => {
         <div className="custom-container mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="bg-[#1a3c26] text-white p-2 rounded-full">
+            {/* <div className="bg-[#1a3c26] text-white p-2 rounded-full">
               <span className="text-xl">🌿</span>
-            </div>
-            <span className="text-xl font-semibold text-[#1a3c26]">PlantPure</span>
+            </div> */}
+            <img src={Logo} alt="PlantPure Logo" className="h-20 w-20" />
+          
           </div>
 
           {/* Contact and Shop Button */}

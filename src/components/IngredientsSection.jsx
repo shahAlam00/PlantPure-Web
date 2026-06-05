@@ -30,7 +30,7 @@ const IngredientsSection = () => {
           <div className="flex-1 space-y-6">
             <div>
               <h4 className="text-[#2d6a4f] text-[10px] font-bold uppercase tracking-[0.2em] mb-2">
-                PnatPure
+                PlantPure
               </h4>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1a3c26] leading-tight">
                 Why Women Love PlantPure

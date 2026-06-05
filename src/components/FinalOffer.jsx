@@ -1,10 +1,11 @@
 import React from 'react';
 
 const offers = [
-    "Henna + Indigo + Hibiscus Oil kit",
-    "Free shipping across India",
-    "Cash on Delivery available",
-    "Easy returns within 7 days"
+    "Reduces Hair Fall by strengthening your roots.",
+    "Deeply Nourishes the scalp for healthier hair.",
+
+    "CRestores natural shine and softness.",
+    "Cleanses gently without harsh chemicals."
 ];
 
 const FinalOffer = () => {
@@ -17,21 +18,21 @@ const FinalOffer = () => {
                     {/* Limited Time Badge: Reduced mb */}
                     <div className="inline-block border border-[#d4af37]/30 rounded-full px-4 py-1 mb-6">
                         <span className="text-[10px] font-semibold uppercase tracking-widest text-[#d4af37]">
-                            🕒 Limited time offer
+                            SPECIAL OFFER
                         </span>
                     </div>
 
                     {/* Heading: Reduced mb */}
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4">Get your Natural Hair Coloring today.</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4">Cleansing & Nourishing Hair Cleanser</h2>
 
                     {/* Price: Reduced mb */}
                     <div className="flex items-center justify-center gap-3 mb-6">
-                        <span className="text-2xl text-gray-400 line-through font-medium">₹1,299</span>
-                        <span className="text-5xl font-bold text-[#d4af37]">₹900</span>
+                        <span className="text-2xl text-gray-400 line-through font-medium">₹680</span>
+                        <span className="text-5xl font-bold text-[#d4af37]">₹340</span>
                     </div>
 
                     {/* Features List: Compact grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-xl mx-auto mb-8 text-left text-sm">
+                    <div className="grid grid-cols-1  md:grid-cols-2 gap-2 max-w-2xl mx-auto mb-8 text-left text-sm">
                         {offers.map((offer, index) => (
                             <div key={index} className="flex items-center gap-2">
                                 <span className="text-[#d4af37]">✓</span>

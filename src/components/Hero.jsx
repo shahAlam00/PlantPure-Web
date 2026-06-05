@@ -24,7 +24,7 @@ const Hero = () => {
 
             <div className="flex flex-wrap gap-4 pt-2">
               <button className="bg-[#1a3c26] hover:bg-[#2d6a4f] text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg">
-                Order Your Kit — ₹999
+                Order Your Kit — ₹900
               </button>
               <button className="border border-[#1a3c26] text-[#1a3c26] px-8 py-4 rounded-full font-semibold hover:bg-white transition-all">
                 How It Works
@@ -32,9 +32,9 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-wrap gap-6 text-[#1a3c26] font-medium pt-4">
-              <span className="flex items-center gap-2">✓ 100% Natural</span>
-              <span className="flex items-center gap-2">✓ Dermatologically Safe</span>
-              <span className="flex items-center gap-2">🚚 Free Shipping</span>
+              <span className="flex items-center gap-2">Henna Powder</span>
+              <span className="flex items-center gap-2">Indigo Powder</span>
+              <span className="flex items-center gap-2">Hibiscus Oil</span>
             </div>
           </div>
 

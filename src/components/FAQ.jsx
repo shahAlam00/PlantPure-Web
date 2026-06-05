@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
 const faqData = [
-  { q: "Is PlantPure really 100% chemical-free?", a: "Yes, our formula is 100% natural, using only plant-based ingredients like Henna, Indigo, and Hibiscus without any synthetic additives." },
-  { q: "How long does the color last?", a: "Depending on hair type and care routine, the natural color typically lasts 3 to 5 weeks." },
-  { q: "Will it cover stubborn greys?", a: "Yes, our triple-sifted formula is designed for deep penetration to effectively cover even stubborn greys." },
-  { q: "How long does one kit last?", a: "A single kit generally provides enough product for 1-2 full applications, depending on hair length and thickness." },
-  { q: "Do you ship across India?", a: "We offer free shipping across all serviceable pin codes in India." }
+  { q: "Is PlantPure completely natural?", a: "PlantPure uses carefully selected herbal ingredients including Henna Powder, Indigo Powder and Hibiscus Oil." },
+  { q: "Does it contain ammonia or peroxide?", a: "No. PlantPure is free from Ammonia, PPD and Peroxide." },
+  { q: "Will it help cover grey hair?", a: "Yes. It is designed to provide natural-looking grey coverage." },
+  { q: "Is it suitable for sensitive scalp?", a: "The herbal formulation is gentle and free from many harsh chemical ingredients commonly found in synthetic colors." },
+  { q: "Can I use it regularly?", a: "Yes. Many customers have been using PlantPure products for years as part of their regular hair care routine." },
+  { q: "Do you deliver across India?", a: "Yes. PlantPure products are available for delivery across India." }
 ];
 
 const FAQ = () => {
@@ -16,8 +17,8 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-12 bg-[#f7f9f2] px-4">
-      <div className="custom-container mx-auto max-w-3xl">
+    <section className="py-10 bg-[#f7f9f2] px-4">
+      <div className="custom-container mx-auto max-w-6xl">
         {/* Header */}
         <h2 className="text-3xl font-bold text-[#1a3c26] text-center mb-10">
           Questions, answered.

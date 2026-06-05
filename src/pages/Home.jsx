@@ -11,6 +11,7 @@ import FinalOffer from '../components/FinalOffer'
 
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
+import FormSection from '../components/FormSection'
 const Home = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const Home = () => {
         <Testimonials/>
        <ShopRange/>
        <FinalOffer/>
+       <FormSection/>
         <FAQ/>
         <Footer/>
     </div>

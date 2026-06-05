@@ -1,17 +1,21 @@
 import React from 'react';
-
+import Plant2 from '../assets/Plant2.png';
 const testimonials = [
   {
-    name: "Anjali R.",
-    text: "Finally! A grey cover that doesn't burn my scalp. My hair looks healthier than before."
+    name: "Nuty Ghai",
+    text: "I love the Henna Kit with Indigo Powder and Hibiscus Oil. I have been using it for many years and it hashelped with hair growth, texture, shine and overall hair quality improvement."
   },
   {
-    name: "Priya M.",
-    text: "Used chemical dyes for 15 years. Switched to PlantPure 3 months ago — hair fall has dropped dramatically."
+    name: "Ambika Agarwal",
+    text: "My hair look and feel young and bouncy.I have been using Plant Pure for 5 years now. Earlier I experienced hair fall, which stopped after regular use. My hair now look and feel young and bouncy"
   },
   {
-    name: "Meera S.",
-    text: "Beautiful natural brown shade. My hairdresser asked what I'm using!"
+    name: "Vinita Jawahar",
+    text: "Completely herbal and chemical-free Have been using it for several years. I can confidently say it is herbal and free from chemicals. I am extremely satisfied with both the product and service."
+  },
+  {
+    name: "Palki Jain",
+    text: "My hair became black, soft and healthy I tried Henna and Indigo after a lot of hesitation. The results surprised me. My hair became beautifully black, soft and healthy looking."
   }
 ];
 
@@ -28,7 +32,7 @@ const Testimonials = () => {
                 Real Results
               </h4>
               <h2 className="text-4xl md:text-5xl font-bold text-[#1a3c26] leading-tight">
-                Loved by women who<br />refuse to compromise.
+                Loved By Customers Across India
               </h2>
             </div>
 
@@ -47,7 +51,7 @@ const Testimonials = () => {
           <div className="relative">
             <div className="aspect-square lg:aspect-[4/5] rounded-[32px] overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=800&auto=format&fit=crop" 
+                src={Plant2} 
                 alt="Happy customer" 
                 className="w-full h-full object-cover"
               />

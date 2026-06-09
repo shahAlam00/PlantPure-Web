@@ -6,7 +6,7 @@ const features = [
     title: "Henna Powder – 100gm",
     description: (
       <>
- A traditional Ayurvedic ingredient known for naturally conditioning hair while improving texture and shine. Its antifungal and antibacterial properties help maintain scalp balance and support healthy hair growth.
+ Triple Filtered Henna Powder is a traditional Ayurvedic ingredient that naturally conditions hair, enhances texture and shine, and helps maintain a healthy scalp with its antifungal and antibacterial properties, supporting stronger and healthier hair growth.
       </>
     ),
   },
@@ -24,24 +24,6 @@ const features = [
   },
 
   // New Cards
-  {
-    icon: "🌿",
-    title: "Triple Filtered Henna Powder – 100gm",
-    description:
-      "Specially processed henna powder that provides rich natural conditioning while helping strengthen hair roots. Its fine texture ensures better absorption and smoother application for healthier-looking hair.",
-  },
-  {
-    icon: "🍋",
-    title: "Amla Extract",
-    description:
-      "Amla is rich in Vitamin C and antioxidants that help nourish the scalp, strengthen hair follicles, reduce breakage, and promote healthy hair growth while adding natural shine.",
-  },
-  {
-    icon: "🌱",
-    title: "Bhringraj Extract",
-    description:
-      'Known as the "King of Herbs" for hair care, Bhringraj helps support stronger roots, reduce hair fall, improve scalp health, and enhance the overall thickness and vitality of hair.',
-  },
 ];
 
 const Features = () => {
